@@ -9,7 +9,18 @@
             "role": "Developer"
         }
     ],
-	"packagist": false,
+	{
+		"packagist": false
+	},
+	{
+		"type": "composer",
+		"url": "http://packagist.org",
+		"options": {
+		    "ssl": {
+		        "verify_peer": "false"
+		    }
+		}
+	},
     "require": {
         "php": ">=5.4.0",
         "ext-curl": "*",
