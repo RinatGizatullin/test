@@ -8,19 +8,7 @@
             "email": "RinatGizatullin@yandex.ru",
             "role": "Developer"
         }
-    ],
-	{
-		"packagist": false
-	},
-	{
-		"type": "composer",
-		"url": "http://packagist.org",
-		"options": {
-		    "ssl": {
-		        "verify_peer": "false"
-		    }
-		}
-	},
+    ],	
     "require": {
         "php": ">=5.4.0",
         "ext-curl": "*",
